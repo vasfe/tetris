@@ -1,5 +1,6 @@
 {
   "name": "tetris",
+  "homepage": "http://vasfe.github.io/tetris",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,11 +17,13 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
