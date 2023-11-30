@@ -1,4 +1,4 @@
-import { line, shapes } from "./consts";
+import { shapes } from "./consts";
 import { Coordinates, PositionlessPiece, Piece, PieceDefinition } from "./types";
 
 
