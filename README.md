@@ -1,5 +1,7 @@
 # Tetris
 
+See in [Github Page](http://vasfe.github.io/tetris)
+
 ## Available Scripts
 
 In the project directory, you can run:
